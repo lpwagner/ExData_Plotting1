@@ -24,5 +24,5 @@ plot4=function(data=NULL){
     axis(1,at=c(0,1500,2872),labels=c("Thu","Fri","Sat"))
     
     plot(Global_reactive_power,type = "l",xlab = "datetime",xaxt="n")
-    xis(1,at=c(0,1500,2872),labels=c("Thu","Fri","Sat"))
+    axis(1,at=c(0,1500,2872),labels=c("Thu","Fri","Sat"))
 }
